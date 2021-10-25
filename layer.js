@@ -2,7 +2,7 @@ const addReport = () => {
 	const report = new ol.layer.Vector({
 		title: 'report',
 		source: new ol.source.Vector({
-      url: 'https://raw.githubusercontent.com/EFisher828/National-Foliage-map/main/10-19-21%20Report.kml',
+      url: 'https://raw.githubusercontent.com/EFisher828/National-Foliage-map/main/10-25-21%20Report.kml',
       format: new ol.format.KML()
     }),
       //style: SFLStyle,
